@@ -9,8 +9,7 @@ const ReliveSection = () => {
     return (
         <section className={`w-full h-full bg-white relative pb-10 md:pb-0`}>
             <div className={`container mx-auto `}>
-                <div
-                    className={`flex flex-col md:flex-row items-center md:justify-center md:gap-x-20 gap-y-10 relative`}>
+                <div className={`flex flex-col md:flex-row items-center md:justify-center md:gap-x-20 gap-y-10 relative`}>
                     <div className={`relive-girl-img relative`}>
                         <img
                             src={ReliveGirlImage}

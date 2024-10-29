@@ -47,3 +47,22 @@
         display: none;
     }
 }
+
+.classic-favorites-section .swiper-pagination {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.classic-favorites-section .swiper-pagination .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #E1E1E2;
+}
+.classic-favorites-section .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #F83D8E;
+}
