@@ -4,6 +4,12 @@ export interface ClassicCardType {
     description: string,
     price: string,
     rating: string,
-    image: string | React.FC<any>,
+    image: string | React.FC<unknown>,
     background: string,
+}
+
+export interface CategoryCardType {
+    category: string,
+    background: string | React.FC<unknown>,
+    className: string
 }

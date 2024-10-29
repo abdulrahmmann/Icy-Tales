@@ -4,7 +4,7 @@ import {StarIcon} from "@heroicons/react/24/solid";
 
 const ClassicCard = (card: ClassicCardType) => {
     return (
-        <div className={`h-[400px] bg-white rounded-[20px] p-3`} key={card.id}>
+        <div className={`h-[400px] bg-white rounded-[20px] p-2`} key={card.id}>
             <div className={`w-full h-[200px] bg-[${card.background}] rounded-[20px] flex justify-center items-center`}
                  style={{ backgroundColor: card.background }}>
                 <img src={`${card.image}`} alt={"card image"} className={`max-h-[160px]`} />
