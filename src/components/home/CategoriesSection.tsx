@@ -11,7 +11,7 @@ const CategoriesSection = () => {
                 <div className={`text-center relative`}>
                     <h1 className="text-5xl text-clr-black font-berkshire">Explore Our
                         <span className="text-clr-pink"> Categories</span></h1>
-                    <p className={`text-lg text-clr-grey mt-4`}>Browse through our different categories to find your favorite ice cream treats.</p>
+                    <p className={`text-sm md:text-base text-clr-grey mt-4`}>Browse through our different categories to find your favorite ice cream treats.</p>
                 </div>
                 <div className={`mt-10`}>
                     <div className={`grid grid-cols-12 gap-7`}>

@@ -3,6 +3,8 @@ import HeroSection from "../components/home/HeroSection.tsx";
 import ReliveSection from "../components/home/ReliveSection.tsx";
 import ClassicFavoritesSection from "../components/home/ClassicFavoritesSection.tsx";
 import CategoriesSection from "../components/home/CategoriesSection.tsx";
+import BestSellersSection from "../components/home/BestSellersSection.tsx";
+import TestimonialSection from "../components/home/TestimonialSection.tsx";
 
 function HomePage() {
     return (
@@ -11,6 +13,9 @@ function HomePage() {
             <ReliveSection />
             <ClassicFavoritesSection />
             <CategoriesSection />
+            <BestSellersSection />
+            <TestimonialSection />
+
             {/*<Footer/>*/}
         </main>
     );

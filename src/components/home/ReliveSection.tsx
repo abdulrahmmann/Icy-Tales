@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 
 const ReliveSection = () => {
     return (
-        <section className={`w-full h-full bg-white relative pb-10 md:pb-0`}>
+        <section className={`w-full h-full bg-white relative md:pb-0`}>
             <div className={`container mx-auto `}>
                 <div className={`flex flex-col md:flex-row items-center md:justify-center md:gap-x-20 gap-y-10 relative`}>
                     <div className={`relive-girl-img relative`}>
@@ -29,7 +29,7 @@ const ReliveSection = () => {
                             Memories of Classic
                             <h1 className={`text-clr-pink`}>Ice Creams</h1>
                         </h1>
-                        <p className={`mt-6 text-sm md:text-lg text-clr-grey`}>
+                        <p className={`mt-6 text-sm md:text-base text-clr-grey`}>
                             From rich chocolate fudge to creamy vanilla sundaes,
                             discover our menu of classic ice cream creations.
                         </p>

@@ -13,3 +13,11 @@ export interface CategoryCardType {
     background: string | React.FC<unknown>,
     className: string
 }
+
+export interface TestimonialsType {
+    id: number;
+    person: string;
+    image: string | React.FC<unknown>;
+    description: string;
+    rating: number;
+}

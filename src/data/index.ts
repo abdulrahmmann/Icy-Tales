@@ -1,4 +1,4 @@
-import {ClassicCardType} from "../types";
+import {ClassicCardType, TestimonialsType} from "../types";
 
 export const navbar = [
     {
@@ -42,7 +42,7 @@ import ClassicFavoritesImage6 from "../assets/images/home/classic-icecream6.svg"
 import ClassicFavoritesImage7 from "../assets/images/home/classic-icecream7.svg";
 import ClassicFavoritesImage8 from "../assets/images/home/classic-icecream8.svg";
 
-export const classicFavorites: ClassicCardType[] =  [
+export const classicFavorites: ClassicCardType[] = [
     {
         id: 1,
         name: "Chocolate Brownie Sundae",
@@ -150,6 +150,77 @@ export const classicFavorites: ClassicCardType[] =  [
         rating: "4.9",
         image: ClassicFavoritesImage6,
         background: "#F8EBE4",
+    },
+];
+
+
+import TestimonialImage1 from "../assets/images/home/testimonial3-personimage1.svg";
+import TestimonialImage2 from "../assets/images/home/testimonial3-personimage2.svg";
+import TestimonialImage3 from "../assets/images/home/testimonial3-personimage3.svg";
+
+export const testimonialsIceCream: TestimonialsType[] = [
+    {
+        id: 1,
+        person: "Emma Johnson",
+        image: TestimonialImage1,
+        description: "Every scoop is a delight! The creamy texture and amazing flavors never fail to impress. Highly recommend!",
+        rating: 5,
+    },
+    {
+        id: 2,
+        person: "Liam Smith",
+        image: TestimonialImage2,
+        description: "The best ice cream I’ve ever had! Each flavor is crafted to perfection. Can't wait to come back for more!",
+        rating: 1,
+    },
+    {
+        id: 3,
+        person: "Olivia Brown",
+        image: TestimonialImage3,
+        description: "A fantastic variety of flavors that satisfy every craving! The quality is outstanding. Love this place!",
+        rating: 2,
+    },
+    {
+        id: 4,
+        person: "Noah Wilson",
+        image: TestimonialImage1,
+        description: "Every visit is a treat! Their innovative flavors keep me coming back. Absolutely delicious!",
+        rating: 5,
+    },
+    {
+        id: 5,
+        person: "Sophia Davis",
+        image: TestimonialImage2,
+        description: "A paradise for ice cream lovers! The flavors are unique and always refreshing. Highly recommend!",
+        rating: 4,
+    },
+    {
+        id: 6,
+        person: "Mason Martinez",
+        image: TestimonialImage3,
+        description: "The ice cream here is to die for! Perfectly creamy and packed with flavor. My favorite spot!",
+        rating: 5,
+    },
+    {
+        id: 7,
+        person: "Isabella Rodriguez",
+        image: TestimonialImage1,
+        description: "Amazing flavors and friendly staff! The atmosphere is perfect for enjoying a sweet treat. Love it!",
+        rating: 4,
+    },
+    {
+        id: 8,
+        person: "Lucas Garcia",
+        image: TestimonialImage2,
+        description: "Best ice cream experience ever! The flavors are rich and satisfying. I’m a fan for life!",
+        rating: 3,
+    },
+    {
+        id: 9,
+        person: "Ava Lee",
+        image: TestimonialImage3,
+        description: "A must-visit for ice cream enthusiasts! The unique flavors and quality are unmatched. So good!",
+        rating: 5,
     },
 ];
 
