@@ -12,9 +12,9 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
-    height: 125px;
+    height: 100px;
     background: url("assets/images/home/hero-bottom.svg") no-repeat center center;
     background-size: cover;
     z-index: 1;
@@ -30,4 +30,20 @@
     }
 }
 
+.relive-girl-img::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, #EFD7EF 8%, #F5F9FC 43%, #F8EAE1 64%, #EAF8F9 87%);
+    width: 578px;
+    height: 578px;
+    border-radius: 50%;
+}
 
+@media (max-width: 1280px) and (min-width: 768px) {
+    .relive-girl-img::before {
+        display: none;
+    }
+}

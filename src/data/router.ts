@@ -5,19 +5,6 @@ import GelatoPage from "../pages/GelatoPage.tsx";
 // import AppLayout from "../layouts/AppLayout.tsx";
 
 export const router = createBrowserRouter([
-    // element: AppLayout(),
-    // children: [
-    //     {
-    //         path: "/", element: HomePage()
-    //     },
-    //     {
-    //         path: "/vegan", element: VeganPage()
-    //     },
-    //     {
-    //         path: "/gelato", element: GelatoPage()
-    //     },
-    // ]
-
     {
         path: "/", element: HomePage()
     },

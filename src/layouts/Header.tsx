@@ -1,6 +1,6 @@
-import logo from '../assets/images/home/logo.svg';
 import {Link, NavLink} from "react-router-dom";
 import {navbar} from "../data";
+import {Logo} from "../constants/images.ts";
 
 const Header = () => {
     return (
@@ -8,7 +8,7 @@ const Header = () => {
             <div className={`container mx-auto`}>
                 <div className={`flex flex-row items-center justify-between`}>
                     <div className={`flex flex-row items-center gap-0`}>
-                        <img src={`${logo}`} alt={"logo"} className={`h-[70px]`}/>
+                        <img src={Logo} alt={"logo"} className={`h-[70px]`}/>
                         <p>
                             <span className={`text-2xl font-berkshire font-normal text-clr-pink`}>Icy </span>
                             <span className={`text-2xl font-berkshire font-normal text-clr-purple`}>Tales</span>

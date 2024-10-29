@@ -1,7 +1,7 @@
 import Header from "../../layouts/Header.tsx";
-import HeroLeftImage from "../../assets/images/home/hero-left-ice-cream.svg";
-import HeroIcrCream from "../../assets/images/home/hero-ice-cream.svg";
+
 import {Link} from "react-router-dom";
+import {HeroIcrCream, HeroLeftImage} from "../../constants/images.ts";
 
 const HeroSection = () => {
     return (
@@ -10,7 +10,7 @@ const HeroSection = () => {
             <div className={`relative mt-10`}>
                 <img src={HeroLeftImage} alt={"HeroLeftImage"} className={`absolute left-0 top-0`} />
                 <div className={`container mx-auto relative`} style={{height: "calc(100vh - 70px - 125px)"}}>
-                    <div className={`flex flex-col md:flex-row items-center justify-center md:justify-between gap-y-10 h-full`}>
+                    <div className={`flex flex-col md:flex-row items-center justify-center md:justify-center md:gap-x-20 gap-y-10 h-full`}>
                         <div className={`text-center md:text-start mt-10 md:mt-5`}>
                             <div className={`flex flex-row items-center gap-2 justify-center md:justify-start`}>
                                 <div className={`hidden md:block w-12 h-0.5 bg-clr-black`}></div>
