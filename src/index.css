@@ -7,3 +7,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.home-hero-section:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 125px;
+    background: url("assets/images/home/hero-bottom.svg") no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+}
+@media (min-width: 2300px) {
+    .home-hero-section:before {
+        height: 240px;
+    }
+}
+@media (max-width: 640px) {
+    .home-hero-section:before {
+        display: none;
+    }
+}
+
+

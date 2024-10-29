@@ -1,11 +1,11 @@
-import Header from "../layouts/Header.tsx";
 import Footer from "../layouts/Footer.tsx";
+import HeroSection from "../components/home/HeroSection.tsx";
 
 function HomePage() {
     return (
-        <main className={`min-h-screen w-full flex flex-col justify-between`}>
-            <Header />
-                
+        <main className={`min-h-screen w-full overflow-x-hidden flex flex-col justify-between`}>
+            <HeroSection/>
+
             <Footer/>
         </main>
     );
