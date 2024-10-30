@@ -26,5 +26,6 @@ export interface CustomButtonType {
     text: string;
     background: string;
     route: string;
+    className?: string;
     onClick?: () => void;
 }

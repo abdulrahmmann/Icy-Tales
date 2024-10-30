@@ -5,6 +5,7 @@ import CategoriesSection from "../components/home/CategoriesSection.tsx";
 import BestSellersSection from "../components/home/BestSellersSection.tsx";
 import TestimonialSection from "../components/home/TestimonialSection.tsx";
 import SummerSpecialSection from "../components/home/SummerSpecialSection.tsx";
+import SignupExclusiveDeals from "../components/home/SignupExclusiveDeals.tsx";
 
 function HomePage() {
     return (
@@ -22,6 +23,8 @@ function HomePage() {
             <SummerSpecialSection />
 
             <TestimonialSection />
+
+            <SignupExclusiveDeals />
 
             {/*<Footer/>*/}
         </main>
