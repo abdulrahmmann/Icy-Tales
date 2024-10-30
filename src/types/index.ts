@@ -21,3 +21,10 @@ export interface TestimonialsType {
     description: string;
     rating: number;
 }
+
+export interface CustomButtonType {
+    text: string;
+    background: string;
+    route: string;
+    onClick?: () => void;
+}

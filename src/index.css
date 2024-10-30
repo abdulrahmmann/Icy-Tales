@@ -19,11 +19,13 @@
     background-size: cover;
     z-index: 1;
 }
+
 @media (min-width: 2300px) {
     .home-hero-section:before {
         height: 240px;
     }
 }
+
 @media (max-width: 640px) {
     .home-hero-section:before {
         display: none;
@@ -57,12 +59,35 @@
     align-items: center;
     gap: 5px;
 }
+
 .classic-favorites-section .swiper-pagination .swiper-pagination-bullet {
     width: 14px;
     height: 14px;
     border-radius: 50%;
     background-color: #E1E1E2;
 }
+
 .classic-favorites-section .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #F83D8E;
+}
+
+.SummerSpecialSection::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #F83D8E;
+    clip-path: polygon(19% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.SummerSpecialSection::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url("assets/images/home/special-rightimage.svg") no-repeat;
+    width: 220px;
+    height: 350px;
 }

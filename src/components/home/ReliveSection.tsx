@@ -3,7 +3,7 @@ import ReliveTriangleImage from '../../assets/images/home/relive-triangle.svg';
 import ReliveCircleImage from '../../assets/images/home/relive-circle.svg';
 import ReliveRightbottomImage from '../../assets/images/home/relive-rightbottomimage.svg';
 import ReliveDotedImage from '../../assets/images/home/relive-doted.svg';
-import {Link} from "react-router-dom";
+import CustomButton from "./CustomButton.tsx";
 
 const ReliveSection = () => {
     return (
@@ -33,10 +33,7 @@ const ReliveSection = () => {
                             From rich chocolate fudge to creamy vanilla sundaes,
                             discover our menu of classic ice cream creations.
                         </p>
-                        <Link to={""}
-                              className={`mx-auto md:mx-0 block w-fit text-sm text-white font-semibold bg-clr-pink hover:bg-clr-pink/85 transition-all shadow-sm px-8 py-5 rounded-[30px] mt-6`}>
-                            Explore Our Menu
-                        </Link>
+                        <CustomButton route={""} text={"Explore Our Menu"} background={"#F83D8E"} />
                     </div>
 
                     <img src={ReliveTriangleImage} alt={"ReliveTriangleImage"} className={`absolute right-0`}/>

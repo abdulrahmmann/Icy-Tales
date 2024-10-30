@@ -20,6 +20,8 @@ export default {
             'linear-gradient(to right, #EFD7EF 8%, #F5F9FC 39%, #F8EAE1 66%, #EAF8F9 91%)',
         'bg-linear-pink-2':
             'linear-gradient(to right, #EFD7EF 8%, #F5F9FC 43%, #F8EAE1 64%, #EAF8F9 87%)',
+
+        'bg-linear-purple-pink-split': 'linear-gradient(to right, #683292 50%, #F83D8E 50%)',
       },
       colors: {
         'clr-black': '#0F0200',

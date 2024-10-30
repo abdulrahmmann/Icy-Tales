@@ -1,7 +1,7 @@
 import Header from "../../layouts/Header.tsx";
 
-import {Link} from "react-router-dom";
 import {HeroIcrCream, HeroLeftImage} from "../../constants/images.ts";
+import CustomButton from "./CustomButton.tsx";
 
 const HeroSection = () => {
     return (
@@ -22,9 +22,7 @@ const HeroSection = () => {
                             <p className={`text-base text-clr-black max-w-[400px] mt-6 mx-auto md:mx-0`}>
                                 Relish the timeless taste of handcrafted ice cream, made with passion and the finest ingredients.
                             </p>
-                            <Link to={""} className={`mx-auto md:mx-0 block w-fit text-sm text-white font-semibold bg-clr-purple hover:bg-clr-purple/85 transition-all shadow-sm px-8 py-5 rounded-[30px] mt-5`}>
-                                Browse Our Classic Flavors
-                            </Link>
+                            <CustomButton text={"Browse Our Classic Flavors"} background={"#683292"} route={""} />
                         </div>
 
                         <div className={`w-[450px] md:w-[450px] pl-6 md:pl-0`}>
