@@ -6,6 +6,7 @@ import BestSellersSection from "../components/home/BestSellersSection.tsx";
 import TestimonialSection from "../components/home/TestimonialSection.tsx";
 import SummerSpecialSection from "../components/home/SummerSpecialSection.tsx";
 import SignupExclusiveDeals from "../components/home/SignupExclusiveDeals.tsx";
+import Footer from "../layouts/Footer.tsx";
 
 function HomePage() {
     return (
@@ -26,7 +27,7 @@ function HomePage() {
 
             <SignupExclusiveDeals />
 
-            {/*<Footer/>*/}
+            <Footer/>
         </main>
     );
 }
