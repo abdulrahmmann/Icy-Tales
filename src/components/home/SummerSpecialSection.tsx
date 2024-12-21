@@ -16,7 +16,7 @@ const SummerSpecialSection = () => {
 
                     <div className={`relative z-10`}>
                         <img src={SpecialIcecreamImage} alt={"SpecialIcecreamImage"} className={`h-[350px]`} />
-                        <div className={`absolute -left-[20%] -top-[20%]`}>
+                        <div className={`absolute -left-[20%] -top-[20%] -z-10`}>
                             <img src={SpecialDotedarrowImage} alt={"SpecialDotedarrowImage"} className={``}/>
                             <div className={`size-20 bg-gradient-to-b from-[#FBAB2A] to-[#FFC972] rounded-full border-4 border-[#F69C0C] flex items-center justify-center text-white text-xl font-bold text-center
                             absolute -z-10 -bottom-[32px] -left-[26px]`}>

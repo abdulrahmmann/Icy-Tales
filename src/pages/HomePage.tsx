@@ -10,24 +10,26 @@ import Footer from "../layouts/Footer.tsx";
 
 function HomePage() {
     return (
-        <main className={`min-h-screen w-full overflow-x-hidden flex flex-col justify-between`}>
-            <HeroSection/>
+        <main id={"smooth-wrapper"} className={`min-h-screen w-full overflow-x-hidden flex flex-col justify-between`}>
+            <div id={"smooth-content"} className={`w-full h-full`}>
+                <HeroSection/>
 
-            <ReliveSection />
+                <ReliveSection />
 
-            <ClassicFavoritesSection />
+                <ClassicFavoritesSection />
 
-            <CategoriesSection />
+                <CategoriesSection />
 
-            <BestSellersSection />
+                <BestSellersSection />
 
-            <SummerSpecialSection />
+                <SummerSpecialSection />
 
-            <TestimonialSection />
+                <TestimonialSection />
 
-            <SignupExclusiveDeals />
+                <SignupExclusiveDeals />
 
-            <Footer/>
+                <Footer/>
+            </div>
         </main>
     );
 }

@@ -9,27 +9,27 @@ export const navbar = [
     {
         id: 2,
         name: "About Us",
-        route: "/about",
+        route: "#",
     },
     {
         id: 3,
         name: "Vegan",
-        route: "/vegan",
+        route: "#",
     },
     {
         id: 4,
         name: "Gelato",
-        route: "/gelato",
+        route: "#",
     },
     {
         id: 5,
         name: "Blog",
-        route: "/blog",
+        route: "#",
     },
     {
         id: 6,
         name: "Faq's",
-        route: "/faq",
+        route: "#",
     },
 ];
 

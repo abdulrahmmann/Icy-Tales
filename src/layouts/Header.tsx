@@ -17,7 +17,7 @@ const Header = () => {
                     <div className={`flex flex-row items-center`}>
                         <nav className={`hidden md:flex flex-row items-center gap-x-7`}>
                             {
-                                navbar.map((nav: any) => (
+                                navbar.map((nav) => (
                                     <NavLink
                                         key={nav.id}
                                         to={nav.route}

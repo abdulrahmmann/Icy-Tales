@@ -19,7 +19,7 @@ const HeroSection = () => {
                             <h1 className={`text-5xl md:text-8xl text-clr-black font-berkshire font-bold md:max-w-[650px]`}>
                                 Discover <span className={`text-clr-pink`}>Sweet</span> Delights!
                             </h1>
-                            <p className={`text-base text-clr-black max-w-[400px] mt-6 mx-auto md:mx-0`}>
+                            <p className={`text-base font-extralight text-clr-black max-w-[400px] mt-6 mx-auto md:mx-0`}>
                                 Relish the timeless taste of handcrafted ice cream, made with passion and the finest ingredients.
                             </p>
                             <CustomButton text={"Browse Our Classic Flavors"} background={"#683292"} route={""} />
